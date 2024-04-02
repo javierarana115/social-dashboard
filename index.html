@@ -44,25 +44,35 @@
     aria-label="theme toggle" 
     role="radiogroup"
     >
-      <label for="dark">Dark</label>
-      <label for="system">System</label>
-      <label for="light">Light</label>
-      <div class="toggle__wrapper">
-        <input type="radio" name="theme" id="dark" />
-        <input type="radio" name="theme" id="system" checked />
-        <input type="radio" name="theme" id="light" />
-        <span aria-hidden="true" class="toggle__background"></span>
-        <span aria-hidden="true" class="toggle__button"></span>
-      </div>
-      </fieldset>
-    
+    <div class="toggle__wrapper">
+      <input type="radio" name="theme" id="dark" />
+      <input type="radio" name="theme" id="system" checked />
+      <input type="radio" name="theme" id="light" />
+      <span aria-hidden="true" class="toggle__background"></span>
+      <span aria-hidden="true" class="toggle__button"></span>
+    </div>
+    <label for="dark">Dark</label>
+    <label for="system">System</label>
+    <label for="light">Light</label>
+  </fieldset>
+
   </header>
   <main>
-    <p>
-    @nathanf
-    1987
-    Followers
-    12 Today
+    <section class="container">
+
+      <div class="card">
+        <div class="card__platform">
+            <img class="card__icon" src="/images/icon-facebook.svg" alt="Facebook">
+          <div class="card__username">@nathanf</div>
+        </div>
+        <div class="card__count">
+          1987
+          <div class="card__label">Followers</div>
+        </div>
+        <div class="card__change">12 Today</div>
+      </div>
+
+    </section>
   
     @nathanf
     1044
@@ -78,8 +88,6 @@
     8239
     Subscribers
     144 Today
-  
-  
   
     Overview - Today
   
@@ -114,7 +122,6 @@
     Total Views
     1407
     12%
-  </p>
   </main>
 
 
